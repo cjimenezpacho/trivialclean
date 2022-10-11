@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		C33AAC7828F5C30500CC1DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC7728F5C30500CC1DC5 /* AppDelegate.swift */; };
 		C33AAC7A28F5C30500CC1DC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC7928F5C30500CC1DC5 /* SceneDelegate.swift */; };
-		C33AAC7C28F5C30500CC1DC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC7B28F5C30500CC1DC5 /* HomeViewController.swift */; };
 		C33AAC8128F5C30600CC1DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33AAC8028F5C30600CC1DC5 /* Assets.xcassets */; };
 		C33AAC8428F5C30600CC1DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33AAC8228F5C30600CC1DC5 /* LaunchScreen.storyboard */; };
 		C33AAC8F28F5C30600CC1DC5 /* TrivialCleanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC8E28F5C30600CC1DC5 /* TrivialCleanTests.swift */; };
 		C33AAC9928F5C30600CC1DC5 /* TrivialCleanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC9828F5C30600CC1DC5 /* TrivialCleanUITests.swift */; };
 		C33AAC9B28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC9A28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift */; };
-		C33AACA828F5C5A100CC1DC5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33AACA728F5C5A100CC1DC5 /* HomeViewController.xib */; };
+		C3B7090728F5DDAE007D5F9F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */; };
+		C3B7090828F5DDAE007D5F9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		C33AAC7428F5C30500CC1DC5 /* TrivialClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivialClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33AAC7728F5C30500CC1DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33AAC7928F5C30500CC1DC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C33AAC7B28F5C30500CC1DC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C33AAC8028F5C30600CC1DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33AAC8328F5C30600CC1DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33AAC8528F5C30600CC1DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +47,8 @@
 		C33AAC9428F5C30600CC1DC5 /* TrivialCleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivialCleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33AAC9828F5C30600CC1DC5 /* TrivialCleanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivialCleanUITests.swift; sourceTree = "<group>"; };
 		C33AAC9A28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivialCleanUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C33AACA728F5C5A100CC1DC5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,14 @@
 		C33AAC7628F5C30500CC1DC5 /* TrivialClean */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7090028F5DD87007D5F9F /* DI */,
+				C3B7090328F5DD87007D5F9F /* Data */,
+				C3B7090128F5DD87007D5F9F /* Repository */,
+				C3B7090228F5DD87007D5F9F /* Domain */,
+				C3B7090428F5DD87007D5F9F /* Presentation */,
+				C3B708FF28F5DD87007D5F9F /* UI */,
 				C33AAC7728F5C30500CC1DC5 /* AppDelegate.swift */,
 				C33AAC7928F5C30500CC1DC5 /* SceneDelegate.swift */,
-				C33AAC7B28F5C30500CC1DC5 /* HomeViewController.swift */,
-				C33AACA728F5C5A100CC1DC5 /* HomeViewController.xib */,
 				C33AAC8028F5C30600CC1DC5 /* Assets.xcassets */,
 				C33AAC8228F5C30600CC1DC5 /* LaunchScreen.storyboard */,
 				C33AAC8528F5C30600CC1DC5 /* Info.plist */,
@@ -125,6 +129,50 @@
 				C33AAC9A28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift */,
 			);
 			path = TrivialCleanUITests;
+			sourceTree = "<group>";
+		};
+		C3B708FF28F5DD87007D5F9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */,
+				C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C3B7090028F5DD87007D5F9F /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		C3B7090128F5DD87007D5F9F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C3B7090228F5DD87007D5F9F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C3B7090328F5DD87007D5F9F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C3B7090428F5DD87007D5F9F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +281,7 @@
 			files = (
 				C33AAC8428F5C30600CC1DC5 /* LaunchScreen.storyboard in Resources */,
 				C33AAC8128F5C30600CC1DC5 /* Assets.xcassets in Resources */,
-				C33AACA828F5C5A100CC1DC5 /* HomeViewController.xib in Resources */,
+				C3B7090728F5DDAE007D5F9F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33AAC7C28F5C30500CC1DC5 /* HomeViewController.swift in Sources */,
 				C33AAC7828F5C30500CC1DC5 /* AppDelegate.swift in Sources */,
 				C33AAC7A28F5C30500CC1DC5 /* SceneDelegate.swift in Sources */,
+				C3B7090828F5DDAE007D5F9F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
