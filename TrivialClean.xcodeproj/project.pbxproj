@@ -14,8 +14,8 @@
 		C33AAC8F28F5C30600CC1DC5 /* TrivialCleanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC8E28F5C30600CC1DC5 /* TrivialCleanTests.swift */; };
 		C33AAC9928F5C30600CC1DC5 /* TrivialCleanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC9828F5C30600CC1DC5 /* TrivialCleanUITests.swift */; };
 		C33AAC9B28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC9A28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift */; };
-		C3B7090728F5DDAE007D5F9F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */; };
-		C3B7090828F5DDAE007D5F9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */; };
+		C3B7090D28F5E19E007D5F9F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7090B28F5E19E007D5F9F /* HomeViewController.xib */; };
+		C3B7090E28F5E19E007D5F9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7090C28F5E19E007D5F9F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		C33AAC9428F5C30600CC1DC5 /* TrivialCleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivialCleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33AAC9828F5C30600CC1DC5 /* TrivialCleanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivialCleanUITests.swift; sourceTree = "<group>"; };
 		C33AAC9A28F5C30600CC1DC5 /* TrivialCleanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivialCleanUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3B7090B28F5E19E007D5F9F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C3B7090C28F5E19E007D5F9F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,7 @@
 		C33AAC7628F5C30500CC1DC5 /* TrivialClean */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7090928F5DE00007D5F9F /* Config */,
 				C3B7090028F5DD87007D5F9F /* DI */,
 				C3B7090328F5DD87007D5F9F /* Data */,
 				C3B7090128F5DD87007D5F9F /* Repository */,
@@ -134,8 +135,7 @@
 		C3B708FF28F5DD87007D5F9F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C3B7090628F5DDAE007D5F9F /* HomeViewController.swift */,
-				C3B7090528F5DDAE007D5F9F /* HomeViewController.xib */,
+				C3B7090A28F5E19E007D5F9F /* HomeViewController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -157,6 +157,8 @@
 		C3B7090228F5DD87007D5F9F /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7091028F5E1B8007D5F9F /* Entities */,
+				C3B7091128F5E1B8007D5F9F /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -164,6 +166,8 @@
 		C3B7090328F5DD87007D5F9F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7091228F5E243007D5F9F /* Network */,
+				C3B7091328F5E243007D5F9F /* Persistent */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -171,8 +175,60 @@
 		C3B7090428F5DD87007D5F9F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7090F28F5E1A5007D5F9F /* HomeViewController */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C3B7090928F5DE00007D5F9F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C3B7090A28F5E19E007D5F9F /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7090B28F5E19E007D5F9F /* HomeViewController.xib */,
+				C3B7090C28F5E19E007D5F9F /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C3B7090F28F5E1A5007D5F9F /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C3B7091028F5E1B8007D5F9F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C3B7091128F5E1B8007D5F9F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		C3B7091228F5E243007D5F9F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C3B7091328F5E243007D5F9F /* Persistent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +337,7 @@
 			files = (
 				C33AAC8428F5C30600CC1DC5 /* LaunchScreen.storyboard in Resources */,
 				C33AAC8128F5C30600CC1DC5 /* Assets.xcassets in Resources */,
-				C3B7090728F5DDAE007D5F9F /* HomeViewController.xib in Resources */,
+				C3B7090D28F5E19E007D5F9F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +364,7 @@
 			files = (
 				C33AAC7828F5C30500CC1DC5 /* AppDelegate.swift in Sources */,
 				C33AAC7A28F5C30500CC1DC5 /* SceneDelegate.swift in Sources */,
-				C3B7090828F5DDAE007D5F9F /* HomeViewController.swift in Sources */,
+				C3B7090E28F5E19E007D5F9F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
