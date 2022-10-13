@@ -1,0 +1,6 @@
+framework module Pods_TrivialClean {
+  umbrella header "Pods-TrivialClean-umbrella.h"
+
+  export *
+  module * { export * }
+}

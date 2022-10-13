@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60047456EAAEA9EAAA254A36 /* Pods_TrivialClean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A2E9BBE7CD0840907F18B /* Pods_TrivialClean.framework */; };
 		C33AAC7828F5C30500CC1DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC7728F5C30500CC1DC5 /* AppDelegate.swift */; };
 		C33AAC7A28F5C30500CC1DC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AAC7928F5C30500CC1DC5 /* SceneDelegate.swift */; };
 		C33AAC8128F5C30600CC1DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33AAC8028F5C30600CC1DC5 /* Assets.xcassets */; };
@@ -18,6 +19,12 @@
 		C3B7090E28F5E19E007D5F9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7090C28F5E19E007D5F9F /* HomeViewController.swift */; };
 		C3B7091628F5E6A7007D5F9F /* OpenTriviaAPIDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7091528F5E6A7007D5F9F /* OpenTriviaAPIDataSource.swift */; };
 		C3B7091828F5E6CC007D5F9F /* OpenTriviaAPIDataSourceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7091728F5E6CC007D5F9F /* OpenTriviaAPIDataSourceImp.swift */; };
+		C3B7091B28F5F518007D5F9F /* GetQuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7091A28F5F518007D5F9F /* GetQuestionRequest.swift */; };
+		C3D181C928F5F8F7006C5B4B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D181C828F5F8F7006C5B4B /* Config.swift */; };
+		C3D181CB28F5F901006C5B4B /* ConfigImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D181CA28F5F901006C5B4B /* ConfigImp.swift */; };
+		C3D181CF28F5FA40006C5B4B /* QuestionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D181CE28F5FA40006C5B4B /* QuestionRequest.swift */; };
+		C3D181D128F6DA51006C5B4B /* QuestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D181D028F6DA51006C5B4B /* QuestionResponse.swift */; };
+		C3D181D328F83BD2006C5B4B /* QuestionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D181D228F83BD2006C5B4B /* QuestionConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		618A2E9BBE7CD0840907F18B /* Pods_TrivialClean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivialClean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E45C134AEB0496596D96407 /* Pods-TrivialClean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivialClean.debug.xcconfig"; path = "Target Support Files/Pods-TrivialClean/Pods-TrivialClean.debug.xcconfig"; sourceTree = "<group>"; };
 		C33AAC7428F5C30500CC1DC5 /* TrivialClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivialClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33AAC7728F5C30500CC1DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33AAC7928F5C30500CC1DC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +62,13 @@
 		C3B7090C28F5E19E007D5F9F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C3B7091528F5E6A7007D5F9F /* OpenTriviaAPIDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTriviaAPIDataSource.swift; sourceTree = "<group>"; };
 		C3B7091728F5E6CC007D5F9F /* OpenTriviaAPIDataSourceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTriviaAPIDataSourceImp.swift; sourceTree = "<group>"; };
+		C3B7091A28F5F518007D5F9F /* GetQuestionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuestionRequest.swift; sourceTree = "<group>"; };
+		C3D181C828F5F8F7006C5B4B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C3D181CA28F5F901006C5B4B /* ConfigImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigImp.swift; sourceTree = "<group>"; };
+		C3D181CE28F5FA40006C5B4B /* QuestionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRequest.swift; sourceTree = "<group>"; };
+		C3D181D028F6DA51006C5B4B /* QuestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResponse.swift; sourceTree = "<group>"; };
+		C3D181D228F83BD2006C5B4B /* QuestionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionConfig.swift; sourceTree = "<group>"; };
+		C44E17F2567748966BB002F0 /* Pods-TrivialClean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivialClean.release.xcconfig"; path = "Target Support Files/Pods-TrivialClean/Pods-TrivialClean.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60047456EAAEA9EAAA254A36 /* Pods_TrivialClean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140A2A0754F98001B4208A13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E45C134AEB0496596D96407 /* Pods-TrivialClean.debug.xcconfig */,
+				C44E17F2567748966BB002F0 /* Pods-TrivialClean.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C33AAC6B28F5C30500CC1DC5 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +113,8 @@
 				C33AAC8D28F5C30600CC1DC5 /* TrivialCleanTests */,
 				C33AAC9728F5C30600CC1DC5 /* TrivialCleanUITests */,
 				C33AAC7528F5C30500CC1DC5 /* Products */,
+				140A2A0754F98001B4208A13 /* Pods */,
+				FCCD7F8BC5E1073FB880ABE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +215,8 @@
 		C3B7090928F5DE00007D5F9F /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				C3D181C828F5F8F7006C5B4B /* Config.swift */,
+				C3D181CA28F5F901006C5B4B /* ConfigImp.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -210,6 +240,7 @@
 		C3B7091028F5E1B8007D5F9F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C3D181D228F83BD2006C5B4B /* QuestionConfig.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -227,6 +258,7 @@
 				C3B7091428F5E642007D5F9F /* Entities */,
 				C3B7091528F5E6A7007D5F9F /* OpenTriviaAPIDataSource.swift */,
 				C3B7091728F5E6CC007D5F9F /* OpenTriviaAPIDataSourceImp.swift */,
+				C3B7091928F5F4DC007D5F9F /* Requests */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -241,8 +273,42 @@
 		C3B7091428F5E642007D5F9F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C3D181CC28F5FA28006C5B4B /* RequestEntities */,
+				C3D181CD28F5FA28006C5B4B /* ResponseEntities */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		C3B7091928F5F4DC007D5F9F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7091A28F5F518007D5F9F /* GetQuestionRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		C3D181CC28F5FA28006C5B4B /* RequestEntities */ = {
+			isa = PBXGroup;
+			children = (
+				C3D181CE28F5FA40006C5B4B /* QuestionRequest.swift */,
+			);
+			path = RequestEntities;
+			sourceTree = "<group>";
+		};
+		C3D181CD28F5FA28006C5B4B /* ResponseEntities */ = {
+			isa = PBXGroup;
+			children = (
+				C3D181D028F6DA51006C5B4B /* QuestionResponse.swift */,
+			);
+			path = ResponseEntities;
+			sourceTree = "<group>";
+		};
+		FCCD7F8BC5E1073FB880ABE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				618A2E9BBE7CD0840907F18B /* Pods_TrivialClean.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C33AAC9E28F5C30600CC1DC5 /* Build configuration list for PBXNativeTarget "TrivialClean" */;
 			buildPhases = (
+				64C470039F3BA142CE7A55F7 /* [CP] Check Pods Manifest.lock */,
 				C33AAC7028F5C30500CC1DC5 /* Sources */,
 				C33AAC7128F5C30500CC1DC5 /* Frameworks */,
 				C33AAC7228F5C30500CC1DC5 /* Resources */,
+				AF9FACCF5272183D0E3F5CA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,16 +439,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64C470039F3BA142CE7A55F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrivialClean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9FACCF5272183D0E3F5CA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivialClean/Pods-TrivialClean-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrivialClean/Pods-TrivialClean-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrivialClean/Pods-TrivialClean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C33AAC7028F5C30500CC1DC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B7091B28F5F518007D5F9F /* GetQuestionRequest.swift in Sources */,
+				C3D181D328F83BD2006C5B4B /* QuestionConfig.swift in Sources */,
 				C33AAC7828F5C30500CC1DC5 /* AppDelegate.swift in Sources */,
 				C3B7091828F5E6CC007D5F9F /* OpenTriviaAPIDataSourceImp.swift in Sources */,
 				C33AAC7A28F5C30500CC1DC5 /* SceneDelegate.swift in Sources */,
+				C3D181CB28F5F901006C5B4B /* ConfigImp.swift in Sources */,
+				C3D181C928F5F8F7006C5B4B /* Config.swift in Sources */,
 				C3B7091628F5E6A7007D5F9F /* OpenTriviaAPIDataSource.swift in Sources */,
+				C3D181CF28F5FA40006C5B4B /* QuestionRequest.swift in Sources */,
 				C3B7090E28F5E19E007D5F9F /* HomeViewController.swift in Sources */,
+				C3D181D128F6DA51006C5B4B /* QuestionResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +660,7 @@
 		};
 		C33AAC9F28F5C30600CC1DC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E45C134AEB0496596D96407 /* Pods-TrivialClean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -570,6 +687,7 @@
 		};
 		C33AACA028F5C30600CC1DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44E17F2567748966BB002F0 /* Pods-TrivialClean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

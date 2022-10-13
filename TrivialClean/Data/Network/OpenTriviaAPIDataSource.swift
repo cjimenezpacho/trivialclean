@@ -6,5 +6,5 @@
 //
 
 protocol OpenTriviaAPIDataSource {
-    
+    func getQuestion(questionConfig: QuestionConfig)
 }
